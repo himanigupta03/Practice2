@@ -40,16 +40,16 @@ export class App extends Component {
 
 const styles = StyleSheet.create({
   main: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    flex: 1, // capture the entire parent space
+    justifyContent: 'center', // vertical center
+    alignItems: 'center', // horizontal center
     //borderWidth: 5,
     //borderColor: 'red'
   },
   tinyLogo: {
     width: '90%',
     height: 100,
-    marginBottom: 80,
+    marginBottom: 10,
     //borderWidth: 5,
     //borderColor: 'red'
   },
